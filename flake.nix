@@ -286,6 +286,7 @@
       common-cpu-intel-cpu-only = import ./common/cpu/intel/cpu-only.nix;
       common-gpu-intel-kaby-lake = deprecated "992" "common-gpu-intel-kaby-lake" (import ./common/gpu/intel/kaby-lake);
       common-gpu-intel-sandy-bridge = deprecated "992" "common-gpu-intel-sandy-bridge" (import ./common/gpu/intel/sandy-bridge);
+      common-gpu-intel-raptor-lake = import ./common/gpu/intel/raptor-lake;
       common-gpu-amd = import ./common/gpu/amd;
       common-gpu-amd-sea-islands = import ./common/gpu/amd/sea-islands;
       common-gpu-amd-southern-islands = import ./common/gpu/amd/southern-islands;
