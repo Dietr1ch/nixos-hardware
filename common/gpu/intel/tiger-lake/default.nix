@@ -9,4 +9,9 @@
       boot.kernelParams = [ "i915.enable_guc=3" ];
     })
   ];
+
+  # https://nixos.wiki/wiki/Intel_Graphics
+  hardware.graphics.extraPackages = with pkgs; [
+    intel-media-sdk
+  ];
 }
